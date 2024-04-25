@@ -1,0 +1,373 @@
+@font-face {
+  font-family: fuente-titulo;
+  src: url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+  ;
+  margin: auto
+}
+
+body {
+  background-color: #f4f3ee
+}
+
+# {
+  margin: 0;
+  padding: 0;
+}
+
+/*font-family: "Nunito Sans", sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+h1 {
+  color: #E0AFA0;
+  background-color: #f3e9f5;
+  text-align: center;
+  font-family: fuente-titulo;
+  font-size: 80px;
+  padding: 20px;
+  position: sticky;
+  top: 0;
+}
+
+h2 {
+  color: #E0AFA0;
+  text-align: center;
+}
+
+.verde {
+  color: rgb(252, 252, 252);
+  font-family: "Nunito Sans", sans-serif;
+}
+
+
+#micaela {
+  font-size: 50px;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+
+.texto-con-imagen {
+  padding: 200px;
+  color: #ffffff;
+  background-image: url(/resources/typo/nosoortas.jpg);
+  font-size: 80px background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
+
+.destacados1 {
+  grid-area: img1;
+}
+
+.navegacion {
+  background-color: #E0AFA0;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.navegacion a {
+  color: #463F3A;
+}
+
+.navegacion ul {
+  list-style-type: none;
+
+}
+
+.form input {
+  display: block;
+}
+
+.destacados img {
+  width: 250px;
+
+
+}
+
+.destacados {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.producto-orden {
+  display: grid;
+  grid-template-areas:
+    "img1 img1 img2 img2"
+    "img3 img4 img6 img5"
+    "img3 img4 img6 img5"
+  ;
+}
+
+.producto-orden img {
+  width: 100%;
+}
+
+
+.img1 {
+  grid-area: img1;
+}
+
+
+.img2 {
+  grid-area: img2;
+}
+
+.img2 {
+  width: 100%;
+}
+
+.img3 {
+  grid-area: img3;
+}
+
+.img3 {
+  width: 100%;
+}
+
+.img4 {
+  grid-area: img4;
+}
+
+.img4 {
+  width: 100%;
+}
+
+.img5 {
+  grid-area: img5;
+
+}
+
+.img5 {
+  width: 100%;
+}
+
+.img6 {
+  grid-area: img6;
+}
+
+.img6 {
+  width: 100%;
+}
+
+.producto-orden button {
+  padding: 5px 15px;
+  margin: 15px;
+  border-radius: 15px;
+  background-color: #888584;
+  color: beige;
+}
+
+.navegacion {
+  display: grid;
+
+}
+
+.wapp {
+  background-color: green;
+  padding: 15px;
+  border-radius: 15px;
+
+}
+
+.wapp {
+  position: fixed;
+  top: 90%;
+  right: 50px;
+}
+
+.destacados {
+  border: #463F3A solid 3px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+  background-color: #888584;
+
+}
+
+.destacados div {
+  border: #e7e1df solid 3px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  background-color: #e0afa0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.destacados img {
+  width: 150px;
+  justify-items: stretch;
+  border-radius: 10px;
+}
+
+.destacados p {
+
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.button {
+  padding: 5px 15px;
+  margin: 15px;
+  border-radius: 15px;
+  background-color: #463F3A;
+  color: #ffffff;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.vermas {
+  padding: 5px 15px;
+  margin: 15px;
+  border-radius: 15px;
+  background-color: #463F3A;
+  color: #ffffff;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.vermas a:hover {
+  font-weight: bold;
+  padding: 20px;
+  background-color: #E0AFA0;
+  color: #f4f3ee;
+
+}
+
+
+
+.carrusel {
+  display: flex;
+  flex-direction: column-reverse;
+  align-content: center;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.preguntasfrecuentes  div{
+  border: solid #888584 1px;
+  padding: 10px;
+}
+
+.preguntasfrecuentes a {
+  display: inline-block;
+  padding: 10px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: #dfdfdf;
+  color: black;
+
+}
+
+.preguntasfrecuentes a:link{
+  background-color: pink ;
+  color: #f3e9f5;
+}
+.preguntasfrecuentes a:hover {
+  font-weight: bold;
+  padding: 20px;
+  background-color: #E0AFA0;
+  color: #f4f3ee;
+
+}
+
+.preguntasfrecuentes a:active {
+  background-color: #463F3A;
+  color: #E0AFA0;
+}
+
+.preguntasfrecuentes a:visited {
+  background-color: #888584;
+  color: #f3e9f5;
+}
+
+.preguntasfrecuentes div :not(.padre){
+  padding-left: 40px;
+}
+
+/*navegacion*/
+.nav__a--activo {
+  font-weight: bold;
+}
+.nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+  justify-items: stretch;
+}
+
+.nav ul li {
+  margin: 0 10px;
+
+}
+
+.nav ul li a {
+  color: #463F3A;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.nav {
+  display: grid;
+  grid-template-columns: 0.5fr 0.5fr 0.5fr;
+  grid-template-areas:
+    "link-1 logo link-2";
+  border-bottom: 5px solid black;
+  padding: 5px;
+  max-width: 850px;
+  margin: auto;
+}
+
+.link-1 {
+  grid-area: link-1;
+}
+
+.logo {
+  grid-area: logo;
+}
+
+.lonk-2 {
+  grid-area: link-2;
+}
+
+
+
+
+
+
+
+
+/*media querys*/
+/*- mobile last- maxwith-*/
+@media (max-width: 650px) {
+  .nav {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      "logo logo"
+      "link-1 link-2"
+    ;
+  }
+
+  .nav .link-1 {
+    justify-content: flex-end;
+  }
+}
+@media (max-width:850px){
+  .producto-orden {
+  grid-template-areas:
+    "img1 img1 img2 img2"
+    "img3 img4 img6 img5"
+    "img3 img4 img6 img5"
+  ;
+}
+
+}
