@@ -345,7 +345,6 @@ h2 {
 
 
 
-
 /*media querys*/
 /*- mobile last- maxwith-*/
 @media (max-width: 650px) {
@@ -370,4 +369,23 @@ h2 {
   ;
 }
 
+}
+
+@media (max-width:495px){
+  .navbar navbar-expand-lg bg-body-tertiary {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      "logo logo"
+      "link-1 link-2"
+    ;
+  }
+}
+
+@media (max-width:549px){
+  .container {    
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      "logo logo"
+      "link-1 link-2"
+    ;}
 }
